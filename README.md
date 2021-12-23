@@ -1,3 +1,5 @@
+# 2021-12-23 Under construction!
+---
 # How to Install Klipper on a Artillery Sidewinder X1 fast - with MainsailOS and Home Assistant
 I recently struggled by findig a good and fast installation manual for Klipper with this combination.
 Also, I recently setup HomeAssitant aka HASS (HAssOS) and want to integrate it there.
@@ -116,7 +118,8 @@ Here the pin out for my BLTouch config:\
 ![1_bltouch_cabling](https://user-images.githubusercontent.com/45465820/147014547-475dfb3b-3677-46fd-951a-87b6eb1a7b1a.jpg)
 
 https://klipper.info/mcu-resources-1/mks-gen-l \
-![image](https://user-images.githubusercontent.com/45465820/147013975-472d95b8-941e-402c-8ec6-384e0bb379f4.png)
+![image](https://user-images.githubusercontent.com/45465820/147013975-472d95b8-941e-402c-8ec6-384e0bb379f4.png) \
+Better image quality: https://github.com/makerbase-mks/MKS-GEN_L/blob/master/hardware/MKS%20Gen_L%20V1.0_008/MKS%20Gen_L%20V1.0_008%20PIN.pdf
 
 I use the "Z-min" configuration and there we have to look for the yellow (control) and white (sensor) pins.
 As seen on the pin out, yellow (D11) and white (D18).
@@ -211,6 +214,10 @@ Simply type (better copy ;-) )\
 Press "_Restart_" in your Mainsail web interface and wait some seconds.
 
 ### 9 Leveling & Probe Offset
+#### 9.1 Probe Testing
+Follow this capitel: https://www.klipper3d.org/BLTouch.html#initial-tests
+
+
 Depends on what Bedlevel you use.
 _unfinished, coming soon_
 Z-Offset
