@@ -205,7 +205,10 @@ serial: /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
 
 #### 8.5 Write firmware
 Simply type (better copy ;-) )\
+
+`sudo service klipper stop`
 `make flash FLASH_DEVICE=$PRINTER`
+`sudo service klipper start`
 
 ![image](https://user-images.githubusercontent.com/45465820/146972858-e9cb0c68-11ae-41a1-8e9b-e7d02d64133c.png)
 
